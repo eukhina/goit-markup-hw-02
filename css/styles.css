@@ -66,17 +66,17 @@ h3 {
 
 
 
-nav ul li a {
+.menu-link{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    color: #2e2f42;
+    color: #434455;
 }
 
-nav ul li a:hover,
-nav ul li a:focus {
+.menu-link:hover,
+.menu-link:focus {
     color: #404BBF;
 }
 
@@ -99,4 +99,7 @@ nav ul li a[href="#portfolio"].active {
 .contact-link:hover,
 .contact-link:focus {
     color: #404BBF;
+}
+address.contact-info {
+    font-style: normal;
 }
