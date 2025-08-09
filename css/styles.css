@@ -75,11 +75,9 @@ nav ul li a {
     color: #2e2f42;
 }
 
-nav ul li a:hover,
-nav ul li a:focus {
-    color: #404BBF;
-    nav ul li a[href="#studio"].active,
-    nav ul li a[href="#portfolio"].active {
+nav ul li a.menu-link:hover,
+nav ul li a.menu-link:focus,
+nav ul li a.menu-link.active {
     color: #404BBF;
 }
 
