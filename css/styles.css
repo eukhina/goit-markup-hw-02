@@ -17,13 +17,11 @@ body {
     letter-spacing: 0.54px;
     vertical-align: middle;
     text-transform: uppercase;  
+    color: #4d5ae5;
 }
 
 .logo-primary {
-    color:#4d5ae5;
-}
-.logo-secondary {
-    color: #2E2F42;
+    color: #2e2f42;
 }
 
 h1 {
@@ -74,19 +72,18 @@ nav ul li a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    color: #2E2F42;
+    color: #2e2f42;
 }
 
 nav ul li a:hover,
 nav ul li a:focus {
     color: #404BBF;
-}
-
-nav ul li a[href="#studio"].active,
-nav ul li a[href="#portfolio"].active {
+    nav ul li a[href="#studio"].active,
+    nav ul li a[href="#portfolio"].active {
     color: #404BBF;
 }
-.contact-info a {
+
+.address .contact-info a {
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
