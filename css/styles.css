@@ -64,7 +64,9 @@ h3 {
     letter-spacing: 0.48px;
 }
 
-
+/* У першому пункті списку у посилання в класі заданий стиль color зі значенням #2e2f42 для визначення кольору тексту 
+У першому пункті списку,при ховері,у посилання,в класі заданий стиль color: #404bbf для зміни кольору шрифту при наведені мишкою 
+У першому пункті списку, при фокусі, у посилання в класі заданий стиль color: #404bbf для зміни кольору шрифту при кліку на посилання */
 
 
 .menu-link {
@@ -74,25 +76,19 @@ h3 {
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: #2e2f42;
-   
     text-decoration: none;
 }
-
-
 .menu-link:hover,
 .menu-link:focus {
     color: #404BBF;
 }
-
 .menu-link.active {
     color: #404BBF;
 }
 
-
-.menu-link.active:hover,
-.menu-link.active:focus {
+.menu-link.active link:hover,
+.menu-link.active link:focus {
     color: #2e2f42;
-
 }
 
 .logo {
