@@ -69,7 +69,7 @@ h3 {
 У першому пункті списку, при фокусі, у посилання в класі заданий стиль color: #404bbf для зміни кольору шрифту при кліку на посилання */
 
 
-.menu-link {
+.menu-link:active {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -78,14 +78,6 @@ h3 {
     color: #2e2f42;
     text-decoration: none;
 }
-.menu-link:hover,
-.menu-link:focus {
-    color: #404BBF;
-}
-.menu-link.active {
-    color: #404BBF;
-}
-
 .menu-link.active:hover,
 .menu-link.active:focus {
     color: #2e2f42;
