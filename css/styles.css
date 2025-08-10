@@ -143,3 +143,15 @@ address.contact-info {
     p {inherits: body;} 
 }
 .team-member {background-color: #ffffff;}
+/* 3 section styles end */
+
+/* 4 section styles */
+.portfolio {
+    h2 {inherits: h2;}
+    ul li {
+        h3 {inherits: h3;}
+        p {
+            inherits: body;
+        }
+    }
+}
