@@ -3,9 +3,8 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     color: #434455;
-    background-color: #ffffff;
 }
 
 .logo {
@@ -36,8 +35,8 @@ h1 {
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -49,9 +48,8 @@ h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.01em;
-    color: #434455;
-    margin-bottom: 0.4px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 
@@ -127,9 +125,8 @@ address.contact-info {
 
 /* 2 section styles */
 .studio {
-    h2 {inherits: h2;}
+    h3 {inherits: h3;}
     ul li {
-        h3 {inherits: h3;}
         p {
             inherits: body;
         }
