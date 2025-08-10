@@ -54,22 +54,9 @@ h3 {
     margin-bottom: 0.4px;
 }
 
-.button { 
-    cursor: pointer;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 0.48px;
-}
-
-/* У першому пункті списку, при ховері, у посилання,
-в класі заданий стиль color: #404bbf для зміни кольору шрифту при наведені мишкою 
-
-У першому пункті списку,при фокусі, у посилання в класі заданий стиль color: #404bbf для зміни кольору шрифту при кліку на посилання */
 
 
+/* header styles */
 .menu-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -83,7 +70,6 @@ h3 {
 .menu-link:focus {
     color: #404BBF;
 }
-
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -96,7 +82,6 @@ h3 {
     color: #4d5ae5;
     text-decoration: none;
 }
-
 .logo-primary {
     color: #2e2f42;
 }
@@ -110,12 +95,31 @@ h3 {
     color: #434455;
     text-decoration: none;
 }
-
 .contact-link:hover,
 .contact-link:focus {
     color: #404BBF;
 }
-
 address.contact-info {
     font-style: normal;
 }
+/* header styles end */
+
+/* hero section styles */
+.hero {background-color: #2e2f42;
+    h1 {inherits: h1;
+    }
+
+    button {
+        background-color: #4d5ae5;
+        cursor: pointer;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        }
+    button:hover,
+    button:focus {
+        background-color: #404BBF;
+    }
