@@ -66,6 +66,7 @@ h3 {
 
 
 
+
 .menu-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -73,8 +74,10 @@ h3 {
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: #2e2f42;
+   
     text-decoration: none;
 }
+
 
 .menu-link:hover,
 .menu-link:focus {
@@ -82,14 +85,32 @@ h3 {
 }
 
 .menu-link.active {
-    color: #2e2f42;
+    color: #404BBF;
 }
+
+
 .menu-link.active:hover,
 .menu-link.active:focus {
-    color: #404bbf;
+    color: #2e2f42;
+
 }
 
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
 
+.logo-primary {
+    color: #2e2f42;
+}
 .contact-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
