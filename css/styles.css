@@ -135,10 +135,11 @@ address.contact-info {
     }
 }
 /* 2 section styles end */
+
 /* 3 section styles */
 .team {
     background-color: #F4F4FD;
     h2 {inherits: h2;}
     p {inherits: body;} 
 }
-.li {background-color: #ffffff;}
+.team-member {background-color: #ffffff;}
