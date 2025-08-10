@@ -139,4 +139,6 @@ address.contact-info {
 .team {
     background-color: #F4F4FD;
     h2 {inherits: h2;}
-    p {inherits: body;} }
+    p {inherits: body;} 
+}
+.li {background-color: #ffffff;}
