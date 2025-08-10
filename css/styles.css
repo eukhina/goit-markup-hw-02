@@ -166,5 +166,7 @@ address.contact-info {
     background-color: #2E2F42;
 }
 
-.span {color: #f4f4fd;}
+.logo-primary {
+    color: #2e2f42;
+}
 /* footer styles end */
