@@ -14,7 +14,7 @@ body {
     font-style: normal;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     vertical-align: middle;
     text-transform: uppercase;  
     color: #4d5ae5;
@@ -154,4 +154,14 @@ address.contact-info {
             inherits: body;
         }
     }
+}
+/* 4 section styles end */
+
+/* footer styles */
+.footer-text { inherits: body;}
+.footer-text {
+    color: #F4F4FD;
+}
+.footer {
+    background-color: #2E2F42;
 }
