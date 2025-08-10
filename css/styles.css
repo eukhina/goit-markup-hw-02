@@ -84,9 +84,11 @@ h3 {
 .menu-link.active {
     color: #2e2f42;
 }
-.menu-link.active:hover {
+.menu-link.active:hover,
+.menu-link.active:focus {
     color: #404bbf;
 }
+
 
 nav ul li a[href="#studio"].active,
 nav ul li a[href="#portfolio"].active {
