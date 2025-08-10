@@ -108,7 +108,7 @@ address.contact-info {
 .hero {background-color: #2e2f42;
     h1 {inherits: h1;
     }
-
+}
     button {
         background-color: #4d5ae5;
         cursor: pointer;
@@ -123,3 +123,6 @@ address.contact-info {
     button:focus {
         background-color: #404BBF;
     }
+
+    /* hero section styles end */
+
